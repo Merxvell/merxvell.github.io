@@ -61,7 +61,8 @@ input{
 	font-family: 'Pixel', sans-serif;
 	font-size: 14px;
 	display: block;
-	max-height: 25px;
+	max-height: 15px;
+
 }
 
 .deleteButton{
