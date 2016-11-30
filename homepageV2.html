@@ -1,0 +1,92 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Hello</title>
+        <link rel="stylesheet" type="text/css" href="stylesheetV2.css" />
+        <link rel="stylesheet" type="text/css" href="todo.css" />
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div id="centered">
+            <div class="row icons">
+                <div id="checklist" class="container show"><img id="checklistIcon" class="image" src="images/checklist.png" /></div>
+                <div id="chan" class="container show"><img id="clover" class="image" src="images/4chan.png" /></div>
+                <div id="music" class="container show"><img id="musicIcon" class="image" src="images/music.png" /></div>
+                <div id="school" class="container show"><img id="schoolIcon" class="image" src="images/school.png" /></div>
+                <div id="work" class="container show"><img id="workIcon" class="image" src="images/work.png" /></div>
+                <div id="resources" class="container show"><img id="resourceIcon" class="image" src="images/book.png" /></div>
+            </div>
+        </div>
+        <div class="content-container">
+         <div class="content hide" id="todoList">
+         <h1 class="stay">Tasks</h1>
+            <div class="stay">
+                <input type="text" id="todo-text" placeholder="Max of 10 Inputs"/>
+                <button onclick="handlers.addTodo()">Add</button>
+                <input type="text" id="new-todo-text" placeholder="Change Item" />
+                <input type="number" id="position" placeholder="Item#" />
+                <button onclick="handlers.changeTodo()">Change</button>
+                <input type="number" id="toggle-position" />
+                <button onclick="handlers.toggleTodo()">Toggle</button>
+            </div>
+            <div id="todos">
+                <ul></ul>
+            </div>
+        </div>
+        <div class="content hide" id ="4chanList">
+            <h1>4Chan</h1>
+            <ul class="items">
+                <a href="boards.4chan.org/an"><li>/an/</li></a>
+                <a href="boards.4chan.org/ck"><li>/ck/</li></a>
+                <a href="boards.4chan.org/diy"><li>/diy/</li></a>
+                <a href="boards.4chan.org/fit"><li>/fit/</li></a>
+                <a href="boards.4chan.org/g"><li>/g/</li></a>
+                <a href="boards.4chan.org/wg"><li>/wg/</li></a>
+            </ul>
+        </div>
+        <div class="content hide" id="musicList">
+            <h1>Music</h1>
+            <ul class="items">
+                <a href="https://www.youtube.com/playlist?list=PLs7d4DToZ-osYBxLSjaGB3Wlv1E6Wvscj"><li>F-Funk</li></a>
+                <a href="https://play.google.com/music/listen#/pl/AMaBXynTfmdsy_K0RZDICeMWNkZtUTNPc142DpaDNts4Q1EDnz2KBMP3JQEd04JP4cBZOlEf3_xWhhZZNpl6kUDiseRamCleug%3D%3D"><li>Synth</li></a>
+                <a href="https://www.youtube.com/playlist?list=PLs7d4DToZ-ot1Kg6Up1fBW5Zfa_Vi4f-8"><li>Eurobeat</li></a>
+                <a href="https://www.youtube.com/playlist?list=PLs7d4DToZ-ovEUtKLAaLI2Cz_UpNUt35A"><li>Comfy</li></a>
+                <a href="https://play.google.com/music/listen#/wmp"><li>Play</li></a>
+            </ul>
+        </div>
+        <div class="content hide" id="schoolList">
+            <h1>School</h1>
+            <ul class="items">
+                <a href="https://outlook.wcupa.edu/owa/#path=/mail"><li>Email</li></a>
+                <a href="https://my.wcupa.edu/psp/pprd/EMPLOYEE/EMPL/h/?tab=WCU_89_STUDENT_SERVICES"><li>Billing</li></a>
+                <a href="https://d2l.wcupa.edu/d2l/home"><li>Class</li></a>
+            </ul>
+        </div>
+        <div class="content hide" id="workList">
+            <h1>Work</h1>
+            <ul class="items">
+                <a href="https://github.com/"><li>Github</li></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><li>Gmail</li></a>
+                <a href="https://www.dropbox.com/"><li>DropBox</li></a>
+            </ul>
+        </div>
+        <div class="content hide" id="resourceList">
+            <h1>Resources</h1>
+            <ul class="items">
+                <a href="https://developer.mozilla.org/en-US/"><li>MDN</li></a>
+                <a href="https://css-tricks.com/"><li>CSS</li></a>
+                <a href="http://stackoverflow.com/"><li>Stack</li></a>
+                <a href="https://www.dropbox.com/sh/dcf2gui0jkvucxq/AACYc8QhwBgP4zoU4ndsauFda?dl=0"><li>Unix</li></a>
+                <a href="bento.io"><li>Path</li></a>
+                <a href="https://www.smashingmagazine.com/"><li>Studies</li></a>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript" src="todo.js"></script>
+    <script type="text/javascript" src="jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="homepageV2.js"></script>
+</body>
+
+</html>

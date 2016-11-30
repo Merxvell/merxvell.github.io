@@ -1,0 +1,44 @@
+button{
+	background-color: transparent;
+	color: #d3d3d3;
+	border: none;
+	opacity: .8;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 16px;
+	margin:auto;
+	z-index: 1;
+}
+input{
+	margin:auto;
+	width: 20px;
+	font-size: 12px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #d3d3d3;	color: #d3d3d3;
+	z-index: 1;
+}
+
+#todo-text{
+	width: 120px;
+}
+#new-todo-text{
+	width: 90px;
+}
+
+#todos, #todos li{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 12px;
+	display: block;
+	max-height: 25px;
+}
+
+.deleteButton{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 12px;
+	border: none;
+	color: #d3d3d3;
+	opacity: .8;
+	text-shadow: -1px -1px 0  #000, 1px -1px 0  #000, -1px 1px 0  #000, 1px 1px 0  #000;
+
+}
