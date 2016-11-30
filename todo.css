@@ -17,7 +17,22 @@ input{
 	background-color: transparent;
 	border: none;
 	border-bottom: 2px solid #d3d3d3;	color: #d3d3d3;
-	z-index: 1;
+
+}
+::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
 }
 
 #todo-text{
@@ -26,6 +41,7 @@ input{
 #new-todo-text{
 	width: 90px;
 }
+
 
 #todos, #todos li{
 	font-family: 'Orbitron', sans-serif;
