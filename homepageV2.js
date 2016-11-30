@@ -7,39 +7,39 @@ $(function(){
 		if($('.content').hasClass('active')){
 			$('.content').removeClass('active').hide();
 		}
-		$('#4chanList').addClass('active').show('600');
+		$('#4chanList').addClass('active').show('300');
 	});
 	$('#music').mouseover(function(){
 		if($('.content').hasClass('active')){
 			$('.content').removeClass('active').hide();
 		}
-		$('#musicList').addClass('active').show('600');
+		$('#musicList').addClass('active').show('300');
 
 	});
 	$('#school').mouseover(function(){
 		if($('.content').hasClass('active')){
 			$('.content').removeClass('active').hide();
 		}
-		$('#schoolList').addClass('active').show('600');
+		$('#schoolList').addClass('active').show('300');
 	});
 	$('#work').mouseover(function(){
 		if($('.content').hasClass('active')){
 			$('.content').removeClass('active').hide();
 		}
-		$('#workList').addClass('active').show('600');
+		$('#workList').addClass('active').show('300');
 	});
 	$('#resources').mouseover(function(){
 		if($('.content').hasClass('active')){
 			$('.content').removeClass('active').hide();
 		}
-		$('#resourceList').addClass('active').show('600');
+		$('#resourceList').addClass('active').show('300');
 	});
 
 	$('#checklist').mouseover(function(){
 		if($('.content').hasClass('active')){
 			$('.content').removeClass('active').hide();
 		}
-		$('#todoList').addClass('active').show('600');
+		$('#todoList').addClass('active').show('300');
 	});
 
 	//part 3

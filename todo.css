@@ -1,9 +1,23 @@
+@font-face {
+font-family: 'Pixel';
+font-style: normal;
+font-weight: 300;
+src: local('LLPIXEL3'), url('font/LLPIXEL3.ttf');
+}
+
+@font-face {
+font-family: 'Pixel-LCD';
+font-style: normal;
+font-weight: 300;
+src: local('Pixel-LCD-7'), url('font/pixel_lcd7/Pixel-LCD-7.ttf');
+}
+
 button{
 	background-color: transparent;
 	color: #d3d3d3;
 	border: none;
 	opacity: .8;
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Pixel', sans-serif;
 	font-size: 16px;
 	margin:auto;
 	z-index: 1;
@@ -13,7 +27,7 @@ input{
 	width: 20px;
 	font-size: 12px;
 	color: #d3d3d3;
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Pixel-LCD-7', sans-serif;
 	background-color: transparent;
 	border: none;
 	border-bottom: 2px solid #d3d3d3;	color: #d3d3d3;
@@ -44,14 +58,14 @@ input{
 
 
 #todos, #todos li{
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Pixel', sans-serif;
 	font-size: 14px;
 	display: block;
 	max-height: 25px;
 }
 
 .deleteButton{
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Pixel', sans-serif;
 	font-size: 14px;
 	border: none;
 	color: #d3d3d3;

@@ -1,3 +1,17 @@
+@font-face {
+font-family: 'Pixel';
+font-style: normal;
+font-weight: 300;
+src: local('LLPIXEL3'), url('font/LLPIXEL3.ttf');
+}
+
+@font-face {
+font-family: 'Pixel-LCD';
+font-style: normal;
+font-weight: 300;
+src: local('Pixel-LCD-7'), url('font/pixel_lcd7/Pixel-LCD-7.ttf');
+}
+
 body {
     background: url("background.gif") no-repeat center center fixed;
     background-size: cover;
@@ -52,7 +66,7 @@ img:hover{
 }
 
 h1{
-	font-family: 'Orbitron', sans-serif;
+	font-family: 'Pixel-LCD', sans-serif;
 	color: #d3d3d3;
 	opacity: .6;
 	border-bottom: 3px solid;
@@ -75,7 +89,7 @@ li{
     margin:0 20px;
     text-shadow: -1px -1px 0  #000, 1px -1px 0  #000, -1px 1px 0  #000, 1px 1px 0  #000;
     font-size: 25px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Pixel', sans-serif;
     opacity: .6;
     
 }
