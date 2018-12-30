@@ -115,11 +115,11 @@ li
   text-shadow: -1px -1px 0  #000, 1px -1px 0  #000, -1px 1px 0  #000, 1px 1px 0  #000;
   font-size: 25px;
   font-family: 'Pixel', sans-serif;
-  opacity: .6;
+  opacity: .5;
 }
 
 li:hover
 {
-  opacity: 0.7;
-  transform: scale(1.1);
+  opacity: 0.8;
+  /* transform: scale(1.1); */
 }
