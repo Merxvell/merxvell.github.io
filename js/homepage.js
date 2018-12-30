@@ -1,42 +1,59 @@
-$(function(){
+$( function()
+{
 	//part 1
 	//on click of an an image that provides links
 	//images and divs that should do this
 	//chan, music, school, work
-	$('#chan').mouseover(function(){
-		if($('.content').hasClass('active')){
+
+	$('#chan').mouseover( function()
+	{
+		if($('.content').hasClass('active'))
+		{
 			$('.content').removeClass('active').hide();
 		}
 		$('#4chanList').addClass('active').show('300');
 	});
-	$('#music').mouseover(function(){
-		if($('.content').hasClass('active')){
+
+	$('#music').mouseover( function()
+	{
+		if($('.content').hasClass('active'))
+		{
 			$('.content').removeClass('active').hide();
 		}
 		$('#musicList').addClass('active').show('300');
-
 	});
-	$('#school').mouseover(function(){
-		if($('.content').hasClass('active')){
+
+	$('#school').mouseover( function()
+	{
+		if($('.content').hasClass('active'))
+		{
 			$('.content').removeClass('active').hide();
 		}
 		$('#schoolList').addClass('active').show('300');
 	});
-	$('#work').mouseover(function(){
-		if($('.content').hasClass('active')){
+
+	$('#work').mouseover( function()
+	{
+		if($('.content').hasClass('active'))
+		{
 			$('.content').removeClass('active').hide();
 		}
 		$('#workList').addClass('active').show('300');
 	});
-	$('#resources').mouseover(function(){
-		if($('.content').hasClass('active')){
+
+	$('#resources').mouseover( function()
+	{
+		if($('.content').hasClass('active'))
+		{
 			$('.content').removeClass('active').hide();
 		}
 		$('#resourceList').addClass('active').show('300');
 	});
 
-	$('#checklist').mouseover(function(){
-		if($('.content').hasClass('active')){
+	$('#checklist').mouseover( function()
+	{
+		if($('.content').hasClass('active'))
+		{
 			$('.content').removeClass('active').hide();
 		}
 		$('#todoList').addClass('active').show('300');
@@ -46,6 +63,4 @@ $(function(){
 	//on click leads to a to do list
 	//todo list should allow addition of tasks
 	//progress bar
-
-
 });
