@@ -16,7 +16,7 @@
 
 body
 {
-  background: url("../images/background.gif") no-repeat center center fixed;
+  background: url("../images/background.gif") no-repeat center fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -66,16 +66,23 @@ body
   margin: 20px;
 }
 
-.container img
+.container .image
 {
   width: 100%;
   height: auto;
   opacity: .5;
 }
 
-img:hover
+.image
+{
+  transition: transform .2s;
+  transition: opacity .2s;
+}
+
+.image:hover
 {
   opacity: .7;
+  transform: scale(1.2);
 }
 
 h1
@@ -109,4 +116,10 @@ li
   font-size: 25px;
   font-family: 'Pixel', sans-serif;
   opacity: .6;
+}
+
+li:hover
+{
+  opacity: 0.7;
+  transform: scale(1.1);
 }
