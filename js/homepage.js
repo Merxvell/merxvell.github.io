@@ -50,17 +50,4 @@ $( function()
 		$('#resourceList').addClass('active').show('300');
 	});
 
-	$('#checklist').mouseover( function()
-	{
-		if($('.content').hasClass('active'))
-		{
-			$('.content').removeClass('active').hide();
-		}
-		$('#todoList').addClass('active').show('300');
-	});
-
-	//part 3
-	//on click leads to a to do list
-	//todo list should allow addition of tasks
-	//progress bar
 });

@@ -25,7 +25,7 @@ body
 #centered
 {
   position: absolute;
-  top: 25%;
+  top: 28%;
   left: 53%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
@@ -34,7 +34,7 @@ body
 .content-container
 {
   position: absolute;
-  top: 37%;
+  top: 42%;
   left: 53.5%;
   transform: translate(-50%, -50%);
 }
@@ -63,7 +63,7 @@ body
 {
   width: 65px;
   height: 65px;
-  margin: 15px;
+  margin: 20px;
 }
 
 .container img
@@ -98,6 +98,7 @@ h1
 .items
 {
   list-style: none;
+  margin-left: -25px;
 }
 
 li
